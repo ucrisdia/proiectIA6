@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fisiere>
 	<radacina name="bunatate">
-		<img name="11.jpg"
+		<img name="11.jpg">
 				<emotie>iubire</emotie>
 				<emotie>gingasie</emotie>
 		</img>
 
-		<img name="21.jpg"
+		<img name="21.jpg">
 				<emotie>prietenie</emotie>
 		</img>
 
@@ -40,19 +40,19 @@
 				<emotie>tristete</emotie>
 			</img>
 
-			<img name="caine-rau-1.jpg"
+			<img name="caine-rau-1.jpg">
 				<emotie>teama</emotie>
 			</img>
 
-			<img name="killing-for-fun.png"
+			<img name="killing-for-fun.png">
 				<emotie>dispret</emotie>
 			</img>
 
-			<img name="pisica-rea.jpg"
+			<img name="pisica-rea.jpg">
 				<emotie>amuzament</emotie>
 			</img>
 
-			<img name="politistiiiicautabatausimurfatla-1392056982.jpg"
+			<img name="politistiiiicautabatausimurfatla-1392056982.jpg">
 				<emotie>teama</emotie>
 			</img>
 
