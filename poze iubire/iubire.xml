@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fisiere>
+	<radacina name="iubire">
+	
+		<img name="friendship1.jpg">
+				<emotie>fericire</emotie>
+				<emotie>loialitate</emotie>
+		</img>
+
+		<img name="love1.jpg">
+				<emotie>afectiune</emotie>
+				<emotie>exaltare</emotie>
+		</img>
+
+		<img name="love2.jpg">
+				<emotie>fericire</emotie>
+				<emotie>adoratie</emotie>
+		</img>
+
+		<img name="love3.jpg">
+				<emotie>bucurie</emotie>
+				<emotie>inocenta</emotie>
+				<emotie>siguranta</emotie>
+		</img>
+
+		<img name="empathy.JPG">
+				<emotie>empatie</emotie>
+				<emotie>compasiune</emotie>
+				<emotie>solidaritate</emotie>
+		</img>
+		
+		<img name="love5.jpg">
+				<emotie>prietenie</emotie>
+				<emotie>loialitate</emotie>
+		</img>
+			
+	</radacina>
+	
+</fisiere>
