@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fisiere>
+	<radacina name="gingasie">
+		<img name="gingasie1.jpg">
+				<emotie>gingasie</emotie>
+				<emotie>iubire</emotie>
+		</img>
+
+		<img name="gingasie2.jpg">
+				<emotie>gingasie</emotie>
+		</img>
+
+		<img name="gingasie3.jpg">
+				<emotie>gingasie</emotie>
+		</img>
+
+		<img name="gingasie4.jpg">
+				<emotie>prietenie</emotie>>
+				<emotie>gingasie</emotie>
+		</img>
+
+		<img name="gingasie5.JPG">
+				<emotie>prietenie</emotie>
+				<emotie>gingasie</emotie>
+		</img>
+		
+		<img name="gingasie6.jpg">
+				<emotie>gingasie</emotie>
+				<emotie>delicatete</emotie>
+			</img
+			
+	</radacina>
+	
+</fisiere>
