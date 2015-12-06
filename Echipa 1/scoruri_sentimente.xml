@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<lista_sentimente>
+	
+	<sentiment>
+		<denumire>interest</denumire>
+		<scor>+0.3</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>anticipation</denumire>
+		<scor>0.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>vigilance</denumire>
+		<scor>+0.8</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>serenity</denumire>
+		<scor>+0.8</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>joy</denumire>
+		<scor>+0.8</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>ecstasy</denumire>
+		<scor>+1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>acceptance</denumire>
+		<scor>+0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>trust</denumire>
+		<scor>+0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>admiration</denumire>
+		<scor>+0.8</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>apprehension</denumire>
+		<scor>-0.3</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>fear</denumire>
+		<scor>-0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>terror</denumire>
+		<scor>-1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>distraction</denumire>
+		<scor>0.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>surprise</denumire>
+		<scor>+0.2</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>amazement</denumire>
+		<scor>+1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>pensiveness</denumire>
+		<scor>-0.2</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>sadness</denumire>
+		<scor>-0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>grief</denumire>
+		<scor>-1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>boredom</denumire>
+		<scor>0.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>disgust</denumire>
+		<scor>-0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>loathing</denumire>
+		<scor>-1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>annoyance</denumire>
+		<scor>-1.0</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>anger</denumire>
+		<scor>-0.5</scor>
+	</sentiment>
+	
+	<sentiment>
+		<denumire>rage</denumire>
+		<scor>-0.3</scor>
+	</sentiment>
+</lista_sentimente>
