@@ -1,0 +1,35 @@
+CNNs(Convolutional Neural Networks) sunt retele neuronale in care neuronii sunt distribuiti in straturi/niveluri(layers).
+Aceste retele sunt structurate asemanator cortexului vizual al creierului, fiecare nivel avand o anumita 
+sarcina bine definita in vederea obtinerii unui rezultat(ex.: proiectarea imaginii de pe retina la nivelul creierului).
+Fiecare nivel, exceptand primul, primeste drept input rezultatul nivelului inferior.
+
+In cazul procesarilor de imagini, nivelurile unei retele neuronale convolutionale pot fi:
+
+-niveluri de input(unul singur) - in care se retine vectorul pixelilor imaginii initiale (AxBxC un vector de AxB pixeli cu C canale de culori)
+
+-niveluri fully-connected - in care fiecare neuron este conectat la toti neuronii de pe un nivel inferior (primeste input de la toti neuronii
+de pe un nivel inferior)
+
+-niveluri convolutionale - in care se fac operatii de compunere a rezultatelor unor clustere de neuroni corespunzatoare anumitor regiuni din nivelul de input
+(se folosesc pe anumite regiuni ale imaginilor pentru a evita cazurile in care fiecare neuron primeste outputul de la fiecare neuron de pe nivelul inferior, deci
+depinde de un numar foarte mare de parametri)
+
+-niveluri de maxpooling - in care se imparte imaginea primita ca input in imagini mai mici, care nu se suprapun, si se calculeaza o anumita valoare maxima
+
+-niveluri ReLU(rectified linear units) - in care neuronii folosesc functii de activare non-saturating(functii care nu au regiuni constante, ex: f(x)=max(0,x),
+sunt mai bune la antrenare), sau functii saturating (functia tangenta hiperbolica tanh(x) sau functia sigmoida (1+e^(-x))^(-1)) pentru a creste neliniaritatea
+functiei de decizie
+
+Fiecare layer are drept rezultat o noua imagine, deci layerele retelei functioneaza ca filtre peste imaginea primita ca input.Retelele CNN au, de obicei, imediat 
+dupa nivelul de input anumite niveluri de prelucrare a imaginii(niveluri in care se face redimensioneaza imaginea la un numar standard de pixeli,niveluri in
+care se face crop la sectiunea relevanta a imaginii,etc.), urmate de niveluri convolutionale, pe care se aplica niveluri de maxpooling si normalizare, niveluri
+fully connected, care in final conduc la obtinerea unui rezultat.
+
+Pentru recunoasterea sentimenelor din imagini, penultimul nivel ar putea contine, de exemplu, cate un neuron pentru fiecare emotie pe care dorim sa o clasificam,
+ajutand astfel CNN-ul sa invete toate emotiile.
+
+Avantajele CNNs:
+
+-in nivelurile convolutionale se foloseste acelasi weight pentru fiecare neuron, adica fiecarui pixel i se aplica acelasi filtru, ceea ce reduce spatiul necesar
+implementarii si o performanta mai buna
+-nu necesita cunostinte a priori despre date, se antreneaza pe parcurs
