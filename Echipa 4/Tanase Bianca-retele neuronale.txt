@@ -1,0 +1,17 @@
+Retele neuronale
+-proceseaza informatia intr-un mod similar creierului nostru
+-se inspira din cum functioneaza sistemul nostru nervos
+-rezolva probleme precum recunoasterea faciala (ceea ce creierul nostru poate face cu ususrinta)
+-fiecare input are asociata o "greutate" -> un numar real pe care il austam atunci cand dodrim sa antrenam reteaua(poate fi negativa sau pozitiva)
+-fiecare input ce intra in nucleu este inmultit cu greutatea sa
+-nucleul insumeaza apoi toate aceste valori, din care rezulta activarea (tot un numar real pozitiv sau negativ)
+-ca tip de invatare, folosesc invatare supervizata
+
+Feedforward network
+-fiecare input din input layer este trimis catre fiecare nod din layer-ul ascuns, iar de acolo catre fiecare nod din layer-ul de output
+-pe fiecare layer pot fi oricate noduri si pot exista mai multe layere ascunse
+-alegerea corecta a numarului de noduri si de layere => optimizare
+
+Bibliografie:
+http://www.ai-junkie.com/ann/evolved/nnt1.html (la pagina 5 prezinta o aplicatie ce foloseste retele neuronale, cu exemple de cod)
+http://neuroph.sourceforge.net/image_recognition.html (un tool specializat pentru recunoasterea imaginilor care foloseste retele neuronale)
