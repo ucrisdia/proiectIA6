@@ -14,7 +14,7 @@ public class GlobalColorHistogram extends Component {
 		
   public static void main(String[] args) 
   { 
-	  JavaWalkBufferedImageTest1 test =new JavaWalkBufferedImageTest1("test1.png");
+	  GlobalColorHistogram test =new GlobalColorHistogram("test1.png");
 	  test.afisareVectori();  
   }
  
