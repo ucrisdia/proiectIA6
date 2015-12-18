@@ -1,0 +1,28 @@
+http://128.59.65.150/download/Images_with_CC.zip
+
+(Sunt adnotari JSON)
+
+{
+category: “admiration”,
+emotion: 0.305,
+sentiment_value: 1.6,
+emotions: [
+joy: 0.146113989637,
+admiration: 0.304663212435,
+trust: 0.0124352331606,
+apprehension: 0.0134715025907,
+fear: 0.0455958549223,
+surprise: 0.166839378238,
+sadness: 0.0518134715025,
+disgust: 0.0248704663213,
+anger: 0.0238341968912,
+anticipation: 0.210362694301
+]
+}
+
+category = sentimentul atribuit, (clasa din care face parte)
+emotion = Valoarea celei mai puternice emotii care predomina in imagine
+sentiment_value = Valoarea sentimentului. Aceasta valoare scaleaza pe o scala de la -2 la 2. unde -2 inseamna sentiment negativ, iar +2 inseamna sentiment pozitiv.
+emotions = lista de emotii identificate alaturi de procentajul lor.
+
+(Preluat de la https://aiproject2015.wordpress.com/image-recognition/)
