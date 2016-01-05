@@ -1,9 +1,7 @@
 import java.awt.Component;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-
+import java.io.*;
 import javax.imageio.ImageIO;
  
 public class GlobalColorHistogram extends Component {
@@ -12,11 +10,6 @@ public class GlobalColorHistogram extends Component {
 	private ArrayList<Integer> vectorVerde;
 	private ArrayList<Integer> vectorAlbastru;
 		
-  public static void main(String[] args) 
-  { 
-	  GlobalColorHistogram test =new GlobalColorHistogram("test1.png");
-	  test.afisareVectori();  
-  }
  
   public void printPixelARGB(int pixel) {
     int red = (pixel >> 16) & 0xff;
@@ -86,18 +79,28 @@ public class GlobalColorHistogram extends Component {
 	  return this.vectorVerde;
   }
   
-  void afisareVectori()
+  void afisareVectori(int k) throws FileNotFoundException, UnsupportedEncodingException
   {
-	  System.out.println("Culoare rosu: ");
+	 
+
+  
+  try(PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("LCH.txt", true)))) 
+  {
+	  writer.println("Poza "+k);
+	  writer.println("Culoare rosu: ");
 	  for(int i=1;i<this.vectorRosu.size();i++)
-		  System.out.println("Pozitia "+i+" valoarea: "+this.vectorRosu.get(i));
+		  writer.println("Pozitia "+i+" valoarea: "+this.vectorRosu.get(i));
 	  
-	  System.out.println("\n\nCuloare albastru: ");
+	  writer.println("\n\nCuloare albastru: ");
 	  for(int i=1;i<this.vectorAlbastru.size();i++)
-		  System.out.println("Pozitia "+i+" valoarea: "+this.vectorAlbastru.get(i));
+		  writer.println("Pozitia "+i+" valoarea: "+this.vectorAlbastru.get(i));
 	  
-	  System.out.println("\n\nCuloare verde: ");
+	  writer.println("\n\nCuloare verde: ");
 	  for(int i=1;i<this.vectorVerde.size();i++)
-		  System.out.println("Pozitia "+i+" valoarea: "+this.vectorVerde.get(i));
+		  writer.println("Pozitia "+i+" valoarea: "+this.vectorVerde.get(i));
+
+	}catch (IOException e) {
+	    //exception handling left as an exercise for the reader
+	}
   }
 }
