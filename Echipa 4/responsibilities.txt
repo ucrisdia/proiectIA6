@@ -1,0 +1,10 @@
+Echipa 4
+
+-crearea unei retele neuronale folosind tensorflow
+-salvarea unei sesiuni a retelei neuronale intr-un protobuffer, pentru a nu
+fi nevoie sa o antrenam de fiecare data cand dorim sa o testam
+-am creat scripturi de preprocesare a imaginilor, de redimensionare (128x128 pixeli) de conversie la
+formatul .png
+-am creat un script de generare a imaginilor din baza date in format mnist
+
+-am realizat o clasificare pe categorii folosind SVN
