@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/programare/proiecte/java/ProiectIAv2/jar/httpclient-osgi-4.3.jar"/>
+	<classpathentry kind="lib" path="E:/programare/proiecte/java/ProiectIAv2/jar/httpcore-osgi-4.3-beta1.jar"/>
+	<classpathentry kind="lib" path="E:/programare/proiecte/java/ProiectIAv2/jar/opencv-2411.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:/programare/proiecte/java/ProiectIAv2/jar/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
